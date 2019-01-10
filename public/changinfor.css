@@ -1,0 +1,163 @@
+.form-login{
+    position: relative;
+    top: 100px;
+    max-width: 600px;
+    min-width: 400px;
+    margin: auto;
+    top: 150px;
+    background-color: rgb(231, 235, 234);
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px lightgray !important;
+    margin-bottom: 40px;
+}
+
+.flex-login{
+    margin: auto;
+    margin-top: 10px;
+    height: 50px;
+    width: 300px !important;    
+    float: bottom;
+    text-align: left;
+    border: none;
+
+}
+
+
+
+.container{
+    height: 900px;
+}
+
+.sp-login{
+    height: 100%;
+    width: 35px;
+    float: left;
+    margin-right: 10px;
+}
+
+a:hover{
+    color: beige;
+    text-decoration: none;
+}
+
+
+.img-login > h3{
+    position: relative;
+    top: 300px;
+}
+
+.title {
+    position: relative;
+    top: 50px;
+}
+
+.avatar-change-infor > img{
+    margin-top: 30px;
+}
+
+.btn-change-img {
+    margin-top: 20px;
+    background-color: rgba(255, 55, 255, 0.755) !important;
+    height: 30px;
+    width: auto;
+    border: solid rgb(128, 111, 111);
+    color: white;
+    text-align: top;
+}
+
+.btn-change-img:hover{
+    background-color: brown !important;
+}
+
+.change-infor{
+    position: relative;
+    top: 40px;
+    margin-top: 20px;
+}
+
+.change-infor > input {
+    width: 200px !important;
+    text-align: center;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .btn {
+    border: 2px solid gray;
+    color: gray;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+
+.upload-btn-wrapper > input {
+    display: over;
+}
+
+.access-facebook{
+    margin-top: 100px;
+    background-color: rgba(30, 30, 187, 0.776);
+    border-radius: 2px;
+    font-size: 18px;
+    border: solid rgb(83, 81, 81) 3px; 
+    color: white; 
+    height: 40px;
+}
+
+.rules-account{
+    margin-top:  40px;
+    width: 100% !important;
+    
+}
+
+.checkmark{
+    width: 30px ;
+    height: 30px ;
+    background-color: #eee;
+    border:solid gray 2px;
+    display: block;
+    margin-right: none !important;
+}
+
+.checkmark:hover{
+    color: rgb(59, 58, 58); 
+}
+
+.checkmark:after{
+    content: "";
+    position: absolute;
+    display: none;
+    cursor: pointer;
+}
+
+.label-checkmark{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+}
+
+.change-infor{
+    display: inline-block;
+}
+
+.next{
+    float: center;
+}

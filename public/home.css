@@ -1,0 +1,116 @@
+.form-login{
+    position: relative;
+    top: 100px;
+    max-width: 400px;
+    min-width: 200px;
+    margin: auto;
+    top: 150px;
+    background-color: rgb(231, 235, 234);
+    border-radius: 10px;
+    height: 600px;
+    box-shadow: 2px 2px 2px 2px lightgray !important;
+    margin-bottom: 40px;
+}
+
+.flex-login{
+    margin: auto;
+    margin-top: 10px;
+    height: 50px;
+    width: 300px !important;    
+    float: bottom;
+    text-align: left;
+    border: none;
+}
+
+.btn-login > button {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.container{
+    height: 900px;
+}
+
+.sp-login{
+    height: 100%;
+    width: 35px;
+    float: left;
+    margin-right: 10px;
+}
+
+.img-login > img {
+    position: relative;
+    top: 30px;
+    width: 200px;
+    height: 200px;
+    transition: transform 1s;
+    border-radius: 50%;
+    border-color: 1px;
+    float: center;
+    background-color: rgba(172, 34, 34, 0.265);
+}
+
+.img-login >img:hover{
+    border: solid rgba(47, 9, 9, 0.476) 2px;
+    transform: scale(1.2);
+}
+
+.img-login {
+    text-align: center;
+    height: 300px;
+}
+@keyframes onhover {
+    to { border-radius: 10px}
+}
+
+@keyframes return {
+    to { border-radius: 50%}
+}
+
+a {
+    color: beige;
+    text-decoration: none;
+}
+
+a:hover{
+    color: beige;
+    text-decoration: none;
+}
+
+
+.img-login > h3{
+    position: relative;
+    top: 300px;
+}
+
+.title {
+    position: relative;
+    top: 50px;
+}
+
+.twitter:hover{
+    background-color: rgb(50, 50, 224) !important;
+}
+
+.gmail:hover {
+    background-color: brown !important;
+}
+
+.telegram:hover {
+    background-color: rgba(0, 255, 255, 0.741) !important;
+}
+
+.facebook:hover{
+    background-color: rgba(123, 38, 202, 0.694) !important;
+}
+
+
+.fb-login-button{
+    margin: auto;
+    margin-top: 10px;
+    height: 50px;
+    width: 300px !important;    
+    float: bottom;
+    text-align: left;
+    border: none;
+}

@@ -1,0 +1,200 @@
+<html>
+<header>
+    <title>Student Survey</title>
+    <meta charset="utf-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU'
+        crossorigin='anonymous'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <style>
+        .containter{
+            box-shadow: 2px;
+            display: flex;
+        }
+
+        ul{
+            list-style-type: none;
+            width: 600px;
+        }
+
+        .header > button {
+            float: right;
+        }
+
+        .modal-dialog{
+             position: relative;
+            display: table; 
+            overflow-y: auto;    
+            overflow-x: auto;
+            width: auto;
+            min-width: 300px;   
+        }
+
+       table > .target{
+          width: 800px !important;
+      }
+      form {
+          width: 1000px;
+          border: solid rgba(0, 0, 0, 0.476) 2px;
+      }
+
+        td , th {
+        border: solid rgba(0, 0, 0, 0.095) 1px !important;
+      }
+       th{
+           height: 30px;
+       }
+       td{
+           height: 25px;
+       }
+
+       .target{
+           width: 800px;
+       }
+    </style>
+</header>
+
+<body>
+    <div class="container">
+        <table style="width:100%">
+            <div class="header">
+                <h3>
+                    All Survey
+                </h3>
+                <button type="button" class="btn" data-toggle="modal" data-dismiss="modal" data-target="#createNewModal">
+                    Create New
+                </button>
+                <button type="button" class="btn" data-toggle="modal" data-dismiss="modal" data-target="#generateModal">
+                    Generate Survey
+                </button>
+
+            </div>
+
+            <form action="" class="form-control">
+                <tr>
+                    <th style="width: 120px">icon</th>
+                    <th>Tittle</th>
+                    <th>Create At</th>
+                    <th>Modified At</th>
+                </tr>
+                <tr>
+                    <td>
+                        <button style='font-size:16px' type="button" data-toggle="modal" data-dismiss="modal"
+                            data-target="#createNewModal"><i class='fas fa-pen'></i></button>
+                        <button style='font-size:16px'><i class='fas fa-eye'></i></button>
+                        <button style="font-size:16px; color: red"><i class="fa fa-remove"></i></button>
+                    </td>
+                    <td>Toán rời rạc</td>
+                    <td>Apr 23,2017</td>
+                    <td>Apr 20,2015</td>
+                </tr>
+                <tr>
+                    <td>
+                        <button style='font-size:16px' type="button" data-toggle="modal" data-dismiss="modal"
+                            data-target="#createNewModal"><i class='fas fa-pen'></i></button>
+                        <button style='font-size:16px'><i class='fas fa-eye'></i></button>
+                        <button style="font-size:16px; color: red"><i class="fa fa-remove"></i></button>
+                    </td>
+                    <td>Toán rởi rạc</td>
+                    <td>Apr 23,2017</td>
+                    <td>Apr 20,2015</td>
+                </tr>
+                <tr>
+                    <td>
+                        <button style='font-size:16px' type="button" data-toggle="modal" data-dismiss="modal"
+                            data-target="#createNewModal"><i class='fas fa-pen'></i></button>
+                        <button style='font-size:16px'><i class='fas fa-eye'></i></button>
+                        <button style="font-size:16px; color: red"><i class="fa fa-remove"></i></button>
+                    </td>
+                    <td>Toán rởi rạc</td>
+                    <td>Apr 23,2017</td>
+                    <td>Apr 20,2015</td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button" data-toggle="modal" data-dismiss="modal" data-target="#createNewModal"><i
+                                class='fas fa-pen'></i></button>
+                        <button style='font-size:16px'> <i class='fas fa-eye'></i></button>
+                        <button style="font-size:16px; color: red"><i class="fa fa-remove"></i></button>
+                    </td>
+                    <td>Toán rởi rạc</td>
+                    <td>Apr 23,2017</td>
+                    <td>Apr 20,2015</td>
+                </tr>
+            </form>
+        </table>
+    </div>
+
+    <!-- Button trigger modal -->
+    <!-- <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#">
+        Launch
+    </button> -->
+
+    <!-- Generate Survey -->
+    <div class="modal fade" id="createNewModal" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content ">
+                <div class="modal-header">
+                    <h5 class="modal-title">Toán rời rạc</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="submit">
+                        <table class="create-survey-table">
+                            <tr>
+                                <th class="target">1. * Cơ sở vật chất</th>
+                                <th class="">1 2 3 4 5</th>
+
+                            </tr>
+                            <!-- tr1 -->
+                            <tr>
+                                <td class="target">Giảng đường đáp ứng nhu cầu môn học</td>
+                                <td>
+                                    <input type="radio" name="amphitheater">
+                                    <input type="radio" name="amphitheater">
+                                    <input type="radio" name="amphitheater">
+                                    <input type="radio" name="amphitheater">
+                                    <input type="radio" name="amphitheater">
+                                </td>
+                            </tr>
+
+                       
+    <!-- Button trigger modal -->
+    <!-- Create Survey-->
+    <div class="modal fade" id="creatNewModal" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h3>kết Quả phản hồi về học phần</h3>
+                    <form>
+                        <table>
+
+                        </table>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
